@@ -61,6 +61,12 @@ build CMakeFiles/Inventario101.dir/Inventory.cpp.o: CXX_COMPILER__Inventario101_
   OBJECT_DIR = CMakeFiles/Inventario101.dir
   OBJECT_FILE_DIR = CMakeFiles/Inventario101.dir
 
+build CMakeFiles/Inventario101.dir/History.cpp.o: CXX_COMPILER__Inventario101_unscanned_Debug /Users/davidsanchez/CLionProjects/Inventario101/History.cpp || cmake_object_order_depends_target_Inventario101
+  DEP_FILE = CMakeFiles/Inventario101.dir/History.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Inventario101.dir
+  OBJECT_FILE_DIR = CMakeFiles/Inventario101.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Inventario101
@@ -69,7 +75,7 @@ build CMakeFiles/Inventario101.dir/Inventory.cpp.o: CXX_COMPILER__Inventario101_
 #############################################
 # Link the executable Inventario101
 
-build Inventario101: CXX_EXECUTABLE_LINKER__Inventario101_Debug CMakeFiles/Inventario101.dir/main.cpp.o CMakeFiles/Inventario101.dir/Inventory.cpp.o
+build Inventario101: CXX_EXECUTABLE_LINKER__Inventario101_Debug CMakeFiles/Inventario101.dir/main.cpp.o CMakeFiles/Inventario101.dir/Inventory.cpp.o CMakeFiles/Inventario101.dir/History.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/Inventario101.dir
   POST_BUILD = :

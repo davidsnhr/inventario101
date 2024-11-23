@@ -27,7 +27,7 @@ int main()
                 cout << "Cantidad: " << endl;
                 cin >> cantidad;
                 inventory.addProduct(nombre, cantidad);
-                history.addRecord()
+                history.addRecord("Agregado: " + nombre + to_string(cantidad));
                 break;
             case 5:
                 cout << "Saliendo del Inventario " << endl;
